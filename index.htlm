@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Raiku — Reliable Block Inclusion for Solana</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="description" content="Raiku — predictable, guaranteed transaction inclusion and block coordination for Solana builders." />
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+  <header class="bg-white shadow">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-purple-500 to-indigo-600 flex items-center justify-center text-white font-bold">R</div>
+        <div>
+          <h1 class="text-lg font-semibold">Raiku</h1>
+          <p class="text-xs text-gray-500">Predictable block inclusion for Solana</p>
+        </div>
+      </div>
+      <nav class="space-x-6 hidden md:flex">
+        <a href="#how" class="text-sm hover:text-indigo-600">Kaise Kaam Karta Hai</a>
+        <a href="#features" class="text-sm hover:text-indigo-600">Features</a>
+        <a href="#usecases" class="text-sm hover:text-indigo-600">Use Cases</a>
+        <a href="#contact" class="text-sm hover:text-indigo-600">Contact</a>
+      </nav>
+      <div class="hidden md:block">
+        <a href="#contact" class="px-4 py-2 bg-indigo-600 text-white rounded-md text-sm">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-10 items-center">
+    <div>
+      <h2 class="text-4xl font-extrabold leading-tight">Raiku — Solana block inclusion with guarantees</h2>
+      <p class="mt-4 text-gray-600">Reserve blockspace, schedule transactions, aur ensure karo ki aapki crucial txs include ho — bina uncertainty ke. Built for builders, validators, and marketplaces on Solana.</p>
+
+      <div class="mt-6 flex gap-4">
+        <a href="#contact" class="px-5 py-3 bg-indigo-600 text-white rounded-md shadow">Request Demo</a>
+        <a href="#features" class="px-5 py-3 border border-gray-200 rounded-md">Learn More</a>
+      </div>
+
+      <div class="mt-8 grid grid-cols-3 gap-4 text-sm text-gray-600">
+        <div class="bg-white p-4 rounded-lg shadow-sm">
+          <div class="font-semibold">Low latency</div>
+          <div class="text-xs mt-1">Fast confirmation guarantees for mission-critical txs</div>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow-sm">
+          <div class="font-semibold">Predictable inclusion</div>
+          <div class="text-xs mt-1">Slot-level coordination & reserve auctions</div>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow-sm">
+          <div class="font-semibold">Validator-friendly</div>
+          <div class="text-xs mt-1">Easy integration for validators & relayers</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-gradient-to-br from-indigo-50 to-white p-6 rounded-2xl border border-gray-100">
+      <div class="h-64 flex items-center justify-center">
+        <!-- Mockup box -->
+        <div class="w-64 h-40 rounded-lg bg-white border shadow-inner p-4">
+          <div class="text-xs text-gray-400">Sample: Reserve slot #12345</div>
+          <div class="mt-4 font-mono text-sm text-gray-800">tx: 0x9a3...b2f</div>
+          <div class="mt-6 text-xs text-green-600 font-semibold">Included ✅</div>
+        </div>
+      </div>
+      <p class="text-xs text-gray-500 mt-4">Demo mockup — replace with live analytics widget or explorer link.</p>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section id="how" class="bg-white py-12">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-2xl font-bold">Kaise kaam karta hai</h3>
+      <p class="mt-3 text-gray-600">Raiku slot reservation, transaction scheduling aur validator coordination ko combine karta hai taaki inclusion predictable ho. Yahan simplified flow:</p>
+
+      <ol class="mt-6 space-y-4 list-decimal pl-6 text-gray-700">
+        <li><strong>Reserve:</strong> Builder reserve karta hai blockspace via a small on-chain or off-chain commitment.</li>
+        <li><strong>Coordinate:</strong> Validators aur relayers coordinate karte hain to include the reserved tx in the chosen slot.</li>
+        <li><strong>Execute & Confirm:</strong> Tx gets included with proof of inclusion and guaranteed execution ordering.</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features" class="max-w-6xl mx-auto px-6 py-12">
+    <h3 class="text-2xl font-bold">Features</h3>
+    <div class="mt-6 grid md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h4 class="font-semibold">Slot Reservation</h4>
+        <p class="mt-2 text-sm text-gray-600">Reserve blockspace for atomic, time-sensitive operations.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h4 class="font-semibold">Inclusion Guarantees</h4>
+        <p class="mt-2 text-sm text-gray-600">Predictable inclusion with auditable proofs.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h4 class="font-semibold">Validator Integration</h4>
+        <p class="mt-2 text-sm text-gray-600">Lightweight SDK & RPC endpoints for validators and relayers.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h4 class="font-semibold">Auction & Marketplace</h4>
+        <p class="mt-2 text-sm text-gray-600">Market-driven slot allocations and optional auctions for premium slots.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h4 class="font-semibold">Observability</h4>
+        <p class="mt-2 text-sm text-gray-600">Real-time dashboard, inclusion proofs, and explorer links.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h4 class="font-semibold">Security-first</h4>
+        <p class="mt-2 text-sm text-gray-600">On-chain attestations and cryptographic proofs for accountability.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- USE CASES -->
+  <section id="usecases" class="bg-indigo-50 py-12">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-2xl font-bold">Use Cases</h3>
+      <div class="mt-6 grid md:grid-cols-3 gap-6">
+        <div class="bg-white p-5 rounded-lg">
+          <h4 class="font-semibold">DeFi / Trading</h4>
+          <p class="text-sm mt-2 text-gray-600">Front-running protection, deterministic liquidations, and settlement guarantees.</p>
+        </div>
+        <div class="bg-white p-5 rounded-lg">
+          <h4 class="font-semibold">On-chain Agents & AI</h4>
+          <p class="text-sm mt-2 text-gray-600">Coordinated multi-step agent actions with guaranteed execution ordering.</p>
+        </div>
+        <div class="bg-white p-5 rounded-lg">
+          <h4 class="font-semibold">Gaming & NFTs</h4>
+          <p class="text-sm mt-2 text-gray-600">Real-time asset transfers and provable mint ordering.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="contact" class="max-w-6xl mx-auto px-6 py-12">
+    <div class="bg-white p-8 rounded-lg shadow-sm grid md:grid-cols-2 gap-6">
+      <div>
+        <h3 class="text-xl font-bold">Interested in integrating Raiku?</h3>
+        <p class="mt-3 text-gray-600">Hum se contact kijiye for demo, validator integration guide, or a pilot partnership.</p>
+        <ul class="mt-4 text-sm text-gray-700 space-y-2">
+          <li><strong>Email:</strong> <a href="mailto:hello@raiku.com" class="text-indigo-600">hello@raiku.com</a></li>
+          <li><strong>Docs:</strong> <a href="#" class="text-indigo-600">Developer docs (coming soon)</a></li>
+        </ul>
+      </div>
+      <div>
+        <form action="mailto:hello@raiku.com" method="post" enctype="text/plain">
+          <label class="block text-sm font-medium text-gray-700">Naam</label>
+          <input name="name" class="mt-1 block w-full rounded-md border-gray-200 shadow-sm p-2" placeholder="Aapka naam" />
+          <label class="block text-sm font-medium text-gray-700 mt-3">Email</label>
+          <input name="email" type="email" class="mt-1 block w-full rounded-md border-gray-200 shadow-sm p-2" placeholder="aap@company.com" />
+          <label class="block text-sm font-medium text-gray-700 mt-3">Message</label>
+          <textarea name="message" rows="4" class="mt-1 block w-full rounded-md border-gray-200 shadow-sm p-2" placeholder="Thoda bataiye aap kya chahte hain..."></textarea>
+          <button type="submit" class="mt-4 px-4 py-2 bg-indigo-600 text-white rounded-md">Send</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="mt-12 border-t bg-white">
+    <div class="max-w-6xl mx-auto px-6 py-6 flex flex-col md:flex-row items-center justify-between text-sm text-gray-600">
+      <div>© Raiku — Built for Solana builders.</div>
+      <div class="mt-3 md:mt-0">Made with ♥︎ • <a href="#" class="text-indigo-600">Privacy</a></div>
+    </div>
+  </footer>
+
+</body>
+</html>
